@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Model/Qwen2.5-0.5B-Instruct" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Model/siglip-base-patch16-224" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dataset/Chinese-LLaVA-Vision-Instructions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dataset/LLaVA-CC3M-Pretrain-595K" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dataset/minimind-v_dataset" vcs="Git" />
+  </component>
+</project>
