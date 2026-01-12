@@ -125,7 +125,7 @@ if __name__ == '__main__':
     tokenizer = AutoTokenizer.from_pretrained('E:\Python\Workspace\Multi-Model\Model\Qwen2.5-0.5B-Instruct')
     AutoConfig.register("vlm_model", VLMConfig)
     AutoModelForCausalLM.register(VLMConfig, VLM)
-    model = AutoModelForCausalLM.from_pretrained('/home/user/wyf/train_multimodal_from_scratch/save/pretrain')
+    model = AutoModelForCausalLM.from_pretrained('/save/pretrain')
 
     # 把线性层的权重和视觉模型的权重冻结，只训练文本大模型的权重（梯度变成true)
     for name, param in model.named_parameters():
